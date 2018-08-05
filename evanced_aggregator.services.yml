@@ -1,0 +1,5 @@
+services:
+  evanced_aggregator.route_subscriber:
+    class: Drupal\evanced_aggregator\Routing\EvancedRouteSubscriber
+    tags:
+      - { name: event_subscriber }

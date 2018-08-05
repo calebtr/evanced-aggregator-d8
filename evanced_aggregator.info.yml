@@ -1,0 +1,8 @@
+name: Evanced Aggregator
+description: Extends the core Feeds Aggregator module to parse Evanced feeds
+package: Web Services
+
+type: module
+core: 8.x
+dependencies:
+  - aggregator

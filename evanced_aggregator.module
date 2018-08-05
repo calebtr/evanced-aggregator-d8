@@ -1,0 +1,10 @@
+<?php
+
+function evanced_aggregator_theme() {
+  return array(
+    'evanced_item' => array(
+      'template' => 'evanced_item',
+      'variables' => array('title' => NULL, 'link' => NULL, 'when' => NULL, 'where' => NULL),
+    ),
+  );
+}
